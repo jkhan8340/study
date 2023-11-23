@@ -50,7 +50,7 @@ class SortTest {
 
     @Test
     public void test_heap_sort() {
-        int[] a = new int[]{22, 2, 8, 4, 11, 6, 7, 13, 1};
+        int[] a = new int[]{2, 22, 8, 4, 11, 6, 7, 1, 13};
         Sort heapSort = new HeapSort();
         heapSort.sort(a);
         assert Arrays.equals(a, expectedArray);
